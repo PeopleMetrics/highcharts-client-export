@@ -3,7 +3,7 @@
 # Readme from the original highcharts-export-clientside project
 Module for [HighCharts](http://www.highcharts.com/) to export charts client-side.
 
-Webpage for this project is here: http://a----.github.io/highcharts-export-clientside/
+Webpage for this project is here: https://peoplemetrics.github.io/highcharts-client-export/
 
 You may need to export a chart you made using HighCharts to an image or a PDF. It has an exporting module but it relies on an export server, which by default is http://export.highcharts.com/ and you also –unlucky you– have one or more of the following:
 * your app doesn't have access to the intertubes;
@@ -17,7 +17,7 @@ Additionally, it provides a common interface between the official export module 
 
 ## Documentation
 
-Want to give it a try in your project? Check its [Website](http://a----.github.io/highcharts-export-clientside/)
+Want to give it a try in your project? Check out [Github](https://peoplemetrics.github.io/highcharts-client-export/)
 for installation instructions.
 
 ## Contribution
