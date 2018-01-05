@@ -1,7 +1,7 @@
 {
   "name": "highcharts-client-export",
-  "main": "highcharts-client-exportjs",
-  "version": "1.1.4",
+  "main": "highcharts-client-export.js",
+  "version": "1.0.0",
   "homepage": "https://peoplemetrics.github.io/highcharts-client-export/",
   "authors": [
     "A---- <A----@users.noreply.github.com>",
