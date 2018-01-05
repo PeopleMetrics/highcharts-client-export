@@ -1,4 +1,4 @@
 # Dependencies are not packaged.
-bower_components/*
+# bower_components/*
 
 sublime*
