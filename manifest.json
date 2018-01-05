@@ -1,6 +1,6 @@
 {
   "name": "highcharts-client-export",
-  "version": "1.0",
+  "version": "1.0.0",
   "title": "Highcharts Client-Side Export Module",
   "type": "plugin",
   "author": {
@@ -35,7 +35,7 @@
   "bugs": "https://github.com/PeopleMetrics/highcharts-client-export.issues",
   "download": "https://github.com/PeopleMetrics/highcharts-client-export/archive/1.0.0.zip",
   "demo": [
-    ""
+    "https://peoplemetrics.github.io/highcharts-client-export/example.html"
   ],
   "maintainers": [
     {
