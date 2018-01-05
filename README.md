@@ -4,7 +4,9 @@ Module for [HighCharts](http://www.highcharts.com/) to export charts client-side
 
 Webpage for this project is here: https://peoplemetrics.github.io/highcharts-client-export/
 
+
 ## Credits
+
 
 Please know that this is forked/rebased off of a (seemingly) abandoned `highcharts-export-clientside` by [A----](https://github.com/A----)  located on [GitHub](https://github.com/A----/highcharts-export-clientside).
 Super useful lib that we have seen a need for, but also need some new features as part of the PeopleMetrics analytics platform roadmap. Credit to the original author upfront for sure, and the license on our part will remain the same.
