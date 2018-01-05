@@ -1,0 +1,4 @@
+# Dependencies are not packaged.
+bower_components/*
+
+sublime*
