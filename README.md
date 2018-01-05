@@ -1,17 +1,23 @@
 # highcharts-client-export
 
-# Readme from the original highcharts-export-clientside project
 Module for [HighCharts](http://www.highcharts.com/) to export charts client-side.
 
 Webpage for this project is here: https://peoplemetrics.github.io/highcharts-client-export/
 
+## Credits
+
+Please know that this is forked/rebased off of a (seemingly) abandoned `highcharts-export-clientside` by [A----](https://github.com/A----)  located on [GitHub](https://github.com/A----/highcharts-export-clientside).
+Super useful lib that we have seen a need for, but also need some new features as part of the PeopleMetrics analytics platform roadmap. Credit to the original author upfront for sure, and the license on our part will remain the same.
+
+## Whys
+
 You may need to export a chart you made using HighCharts to an image or a PDF. It has an exporting module but it relies on an export server, which by default is http://export.highcharts.com/ and you also –unlucky you– have one or more of the following:
-* your app doesn't have access to the intertubes;
-* your chart contains sensitive data and you don't want an unsecure channel to carry it;
-* sensitive data or not, you don't trust HighCharts with it;
-* it's against your company policies;
-* you don't want to set an export server up;
-* you think it's 2015 and FFS, _browsers should be able to do that_.
+* your app doesn't have access to the intertubes
+* your chart contains sensitive data and you don't want an unsecure channel to carry it
+* sensitive data or not, you don't trust HighCharts with it (sorry guys)
+* it's against your company policies
+* you don't want to set an export server up
+* you think browers are fully capable of doing this work
 
 Additionally, it provides a common interface between the official export module and `export-csv`.
 
@@ -52,10 +58,4 @@ The only dependencies you must use are HighCharts and HighCharts exporting modul
 
 ## Next Up
 
-* Updated Readme
 * Code reduction where needed
-
-## Credits
-
-This is forked/rebased off of a now-abandoned `highcharts-export-clientside` by [A----](https://github.com/A----)  located on [GitHub](https://github.com/A----/highcharts-export-clientside)
-
