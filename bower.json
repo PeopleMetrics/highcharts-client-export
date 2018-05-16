@@ -1,6 +1,6 @@
 {
   "name": "highcharts-client-export",
-  "main": "highcharts-client-export.js",
+  "main": "highcharts-client-export.es5.js",
   "version": "1.0.0",
   "homepage": "https://peoplemetrics.github.io/highcharts-client-export/",
   "authors": [
