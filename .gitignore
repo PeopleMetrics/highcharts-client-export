@@ -1,4 +1,5 @@
 # Dependencies are not packaged.
 # bower_components/*
 
-sublime*
+*sublime*
+.DS_Store
