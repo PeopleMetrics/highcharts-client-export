@@ -314,7 +314,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   var postRenderCsvXls = function postRenderCsvXls(highChartsObject, context) {
     if (context.hasCSVOptions) {
       for (var _i3 in context.optionsToCopy) {
-        optionToCopy = context.optionsToCopy[_i3];
+        var optionToCopy = context.optionsToCopy[_i3];
         if (context.csvOpt.get(optionToCopy)) {
           highChartsObject.options.exporting.csv[optionToCopy] = context.oldOptions[optionToCopy];
         }
