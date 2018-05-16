@@ -408,7 +408,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       a.click();
       a.remove();
     } else if (context.browserSupportBlob && (data.blob || data.content)) {
-      blobObject = data.blob || new Blob([data.content], { type: context.type });
+      var blobObject = data.blob || new Blob([data.content], { type: context.type });
       window.navigator.msSaveOrOpenBlob(blobObject, context.filename);
     } else {
       window.open(data);
