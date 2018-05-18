@@ -130,41 +130,41 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return false;
     }
   };
-
-  // Remove unsupported download features from the menu
-  var menuItems = H.getOptions().exporting.buttons.contextButton.menuItems;
-
-  var menuItem = void 0;
-  var textKey = void 0;
-  var text = void 0;
-  var mimeType = void 0;
-
-  var handlerBuilder = function handlerBuilder(mimeType) {
-    return function () {
-      this.exportChartLocal({
-        type: mimeType,
-        csv: {
-          itemDelimiter: ';'
-        }
-      });
-    };
-  };
-
-  for (var i in menuItems) {
-    menuItem = menuItems[i];
-    textKey = menuItems[i].textKey;
-    text = menuItems[i].text; // export-csv do not use a textKey attribute
-    mimeType = TRANSLATION_KEY_TO_MIME_TYPES[textKey] || TRANSLATION_KEY_TO_MIME_TYPES[text];
-    if (mimeType) {
-      if (!H.exporting.supports(mimeType)) {
-        // Setting enabled = false isn't enough.
-        delete menuItems[i];
-      } else {
-        // Redefines click handler to use our method.
-        menuItems[i].onclick = handlerBuilder(mimeType);
-      }
-    }
-  }
+  //
+  // // Remove unsupported download features from the menu
+  // var menuItems = H.getOptions().exporting.buttons.contextButton.menuItems;
+  //
+  // var menuItem = void 0;
+  // var textKey = void 0;
+  // var text = void 0;
+  // var mimeType = void 0;
+  //
+  // var handlerBuilder = function handlerBuilder(mimeType) {
+  //   return function () {
+  //     this.exportChartLocal({
+  //       type: mimeType,
+  //       csv: {
+  //         itemDelimiter: ';'
+  //       }
+  //     });
+  //   };
+  // };
+  //
+  // for (var i in menuItems) {
+  //   menuItem = menuItems[i];
+  //   textKey = menuItems[i].textKey;
+  //   text = menuItems[i].text; // export-csv do not use a textKey attribute
+  //   mimeType = TRANSLATION_KEY_TO_MIME_TYPES[textKey] || TRANSLATION_KEY_TO_MIME_TYPES[text];
+  //   if (mimeType) {
+  //     if (!H.exporting.supports(mimeType)) {
+  //       // Setting enabled = false isn't enough.
+  //       delete menuItems[i];
+  //     } else {
+  //       // Redefines click handler to use our method.
+  //       menuItems[i].onclick = handlerBuilder(mimeType);
+  //     }
+  //   }
+  // }
 
   /*
    * Converts a SVG string to a canvas element
